@@ -13,16 +13,22 @@ public class User
 {
     private String objectId;
     private Date created;
+    private String geo_lng;
     private String username;
     private String company_name;
     private String name;
+    private String company_bs;
     private String email;
+    private String address_zipcode;
     private Integer id;
     private Date updated;
+    private String company_catchPhrase;
+    private String geo_lat;
     private String phone;
     private String website;
     private String address_city;
     private String ownerId;
+    private String address_suite;
     private String address_street;
     public String getObjectId()
     {
@@ -32,6 +38,16 @@ public class User
     public Date getCreated()
     {
         return created;
+    }
+
+    public String getGeo_lng()
+    {
+        return geo_lng;
+    }
+
+    public void setGeo_lng( String geo_lng )
+    {
+        this.geo_lng = geo_lng;
     }
 
     public String getUsername()
@@ -64,6 +80,16 @@ public class User
         this.name = name;
     }
 
+    public String getCompany_bs()
+    {
+        return company_bs;
+    }
+
+    public void setCompany_bs( String company_bs )
+    {
+        this.company_bs = company_bs;
+    }
+
     public String getEmail()
     {
         return email;
@@ -72,6 +98,16 @@ public class User
     public void setEmail( String email )
     {
         this.email = email;
+    }
+
+    public String getAddress_zipcode()
+    {
+        return address_zipcode;
+    }
+
+    public void setAddress_zipcode( String address_zipcode )
+    {
+        this.address_zipcode = address_zipcode;
     }
 
     public Integer getId()
@@ -87,6 +123,26 @@ public class User
     public Date getUpdated()
     {
         return updated;
+    }
+
+    public String getCompany_catchPhrase()
+    {
+        return company_catchPhrase;
+    }
+
+    public void setCompany_catchPhrase( String company_catchPhrase )
+    {
+        this.company_catchPhrase = company_catchPhrase;
+    }
+
+    public String getGeo_lat()
+    {
+        return geo_lat;
+    }
+
+    public void setGeo_lat( String geo_lat )
+    {
+        this.geo_lat = geo_lat;
     }
 
     public String getPhone()
@@ -122,6 +178,16 @@ public class User
     public String getOwnerId()
     {
         return ownerId;
+    }
+
+    public String getAddress_suite()
+    {
+        return address_suite;
+    }
+
+    public void setAddress_suite( String address_suite )
+    {
+        this.address_suite = address_suite;
     }
 
     public String getAddress_street()
